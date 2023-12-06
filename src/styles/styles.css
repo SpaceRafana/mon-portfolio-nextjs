@@ -1,0 +1,435 @@
+
+:root {
+    --color : #D6F42A
+}
+
+.handjet {
+    font-family: var(--handjet-font);
+}
+.chakra-sb {
+    font-family: var(--chakra-font-sb);
+}
+.chakra {
+    font-family: var(--chakra-font-r);
+}
+
+body {
+    background-image: url("../img/space-lunar-opt.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #eaeaea !important;
+    overflow: hidden;
+}
+
+.App {
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: Acumin-Variable-Concept, sans-serif !important;
+    height: 100%;
+}
+
+a {
+    text-decoration: none !important;
+    Color: white !important;
+}
+
+h1 {
+    font-family: var(--chakra-font-sb), sans-serif;
+    font-size: 75px !important;
+    margin: 21px 0 !important;
+}
+
+h2 {
+    font-family: var(--chakra-font-sb), sans-serif;
+    font-size: 46px !important;
+    margin: 18px 0 !important;
+}
+
+h3 {
+    font-family: var(--chakra-font-sb), sans-serif;
+    font-size: 28px !important;
+    margin: 8px 0 !important;
+}
+
+p {
+    font-family: var(--chakra-font-r), sans-serif;
+    font-size: 20.06px !important;
+    line-height: normal;
+}
+
+button {
+    border: none;
+}
+
+.lineHeight {
+    line-height: 18pt;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.colorWhite {
+    color: #eaeaea !important;
+}
+
+.colorGreen {
+    color: var(--color);
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 45px !important;
+        margin: 8px 0 !important;
+    }
+    h2 {
+        font-size: 27.81px !important;
+        margin: 5px 0 !important;
+    }
+    h3 {
+        font-size: 18px !important;
+        margin: 5px 0 !important;
+    }
+    p {
+        font-size: 15px !important;
+        line-height: normal;
+    }
+    .iconWave {
+        display: none;
+    }
+}
+
+                                            /*   Bar Navigation   */
+.navigation {
+    font-family: var(--handjet-font), sans-serif;
+    padding-inline: 88px;
+    padding-top: 25px;
+}
+
+.navlink {
+    width: 100%;
+    height: 100%;
+    /*display: flex;
+    justify-content: space-between;*/
+}
+
+@media only screen and (max-width: 768px) {
+    .navigation {
+        padding-inline: 13px;
+        margin-bottom: 55px;
+    }
+}
+
+                                        /*   Bouton Next-Prev   */
+.buttonNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px rgba(255, 255, 255, 0.50) solid;
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+}
+
+.MyBtn {
+    background: transparent;
+    box-shadow: 0 0 2px white;
+    width: auto;
+    display: block;
+    padding: 13px 25px;
+    border-radius: 8px;
+    color: var(--color);
+    font-family: var(--handjet-font), sans-serif;
+    font-size: 23px;
+    cursor: pointer;
+}
+.MyBtn:hover {
+    background: white;
+    box-shadow: 0 0 0;
+    color: black;
+}
+
+.btnNext {
+    animation: btnAnimationNext 0.8s infinite ease-in-out alternate;
+}
+@keyframes btnAnimationNext {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(5px);
+    }
+}
+
+@keyframes btnAnimationPrev {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(-5px);
+    }
+}
+.btnPrev {
+    animation: btnAnimationPrev 0.8s infinite ease-in-out alternate;
+}
+
+@media only screen and (max-width: 768px){
+    .MyBtn {
+        font-size: 18px;
+        padding: 6px 15px;
+    }
+}
+
+                                        /*   Page Index   */
+.monAvatar {
+    position: fixed;
+    right: 0;
+    height: 100%;
+    width: 75% !important;
+}
+
+.salutation {
+    margin-left: 13px;
+    font-family: Chakra Petch Semibold, sans-serif;
+    font-size: 23px;
+}
+
+.nom {
+    color: white;
+    font-family: var(--chakra-font-sb), sans-serif;
+    margin: 0 0 !important;
+    position: relative;
+    right: 5px;
+    line-height: 1.2;
+}
+
+.Dev {
+    font-family: sans-serif;
+    position: relative;
+    top: 4px;
+    color: var(--color);
+    margin: 0 12px !important;
+}
+
+.Competance {
+    position: relative;
+    bottom: 23px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: var(--handjet-font), sans-serif;
+    font-size: 18px;
+}
+
+.presentation {
+    height: 100vh;
+    align-items: center;
+    padding: 0 88px;
+}
+
+.Services {
+    position: relative;
+    background-color: black;
+    background-size: cover;
+    /*display: flex;
+    justify-content: center;*/
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    padding: 0 88px;
+}
+
+.computor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+@keyframes animate {
+    from{
+        transform: rotateX(15deg) rotateY(-25deg);
+    }
+    to {
+        transform: rotateX(15deg) rotateY(25deg) translate3d(0,-15px,0);
+    }
+}
+@keyframes animate2 {
+    from{
+        transform: rotateX(15deg) rotateY(25deg);
+    }
+    to {
+        transform: rotateX(15deg) rotateY(-25deg) translate3d(0,-15px,0);
+    }
+}
+
+.box1 {
+    width: 255px !important;
+    animation: animate 3.8s infinite ease-in-out alternate;
+}
+
+.box2 {
+    width: 255px !important;
+    animation: animate2 3.8s infinite ease-in-out alternate;
+}
+
+.boxing1 {
+    box-shadow: 0 0 2.5px #c4c4c4;
+    border-radius: 13px;
+}
+.boxing1:hover {
+    box-shadow: 0 1px 3px white;
+    border-radius: 13px;
+    transition: 0.2s ease-in-out;
+}
+
+.boxing2 {
+    box-shadow: 0 0 2.5px #c4c4c4;
+    border-radius: 13px;
+}
+.boxing2:hover {
+    box-shadow: 0 1px 3px white;
+    border-radius: 13px;
+    transition: 0.2s ease-in-out;
+}
+
+.title {
+    height: 100px;
+    border-radius: 13px 13px 13px 13px;
+    padding: 12px 28px;
+}
+
+.Detail {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.GraphicDesign {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 5% 88px;
+    background-image: url("../img/Plume.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.DevFrontend {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 5% 88px;
+    background-image: url("../img/Dev.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .monAvatar {
+        width: 100% !important;
+    }
+    .salutation {
+        font-size: 15px;
+    }
+    .presentation {
+        padding: 0 13px;
+    }
+    .Dev {
+        margin: 0 !important;
+    }
+    .Competance {
+        display: none;
+    }
+    .presentation {
+        align-items: start;
+        padding-top: 55px;
+    }
+    .Services {
+        padding: 0 13px;
+    }
+    .box1 {
+        animation: none;
+        margin-bottom: 8px;
+    }
+    .box2 {
+        animation: none;
+    }
+    .GraphicDesign {
+        background: none;
+        padding: 15% 12px;
+    }
+    .DevFrontend {
+        background: none;
+        padding: 15% 12px;
+    }
+}
+
+                                        /*   Page About   */
+.about {
+    height: 100vh;
+    padding: 0 88px;
+}
+.about h1 {
+    color: var(--color);
+}
+@media only screen and (max-width: 768px){
+    .about {
+        padding: 0 12px;
+    }
+    .about div div {
+        height: 850px;
+        overflow: scroll;
+    }
+}
+
+                                        /*   Page Portfolio   */
+.portfolio {
+    height: 100vh;
+}
+.bodyPortfolio {
+    padding: 0 88px;
+}
+.PFContent {
+    height: 65vh;
+    overflow-y: scroll;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fadeIn {
+    animation: show 1s ease-in-out;
+}
+
+.detailProject {
+    padding: 0 88px;
+}
+
+@media only screen and (max-width: 768px){
+    .bodyPortfolio {
+        padding: 0 12px !important;
+    }
+    .detailProject {
+        height: 85vh;
+        overflow-y: scroll;
+        padding: 0 12px !important;
+    }
+}

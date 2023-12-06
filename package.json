@@ -1,0 +1,35 @@
+{
+  "name": "portfolio-react",
+  "version": "1.0.0",
+  "main": "src/pages/index.js",
+  "dependencies": {
+    "next": "^14.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@react-three/drei": "^9.88.4",
+    "@react-three/fiber": "^8.15.3",
+    "@types/three": "^0.157.2",
+    "three": "^0.157.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "next build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "dev": "next dev"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
