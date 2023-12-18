@@ -22,7 +22,7 @@ export default function Presentation() {
                                 <span className="ms-3" style={{fontFamily: "var(--chakra-font-r), sans serif"}}>je suis</span>
                             </div>
                         </div>
-                        <h1 className="nom">Ra Fanekena</h1>
+                        <div className="nom">Ra Fanekena</div>
                         <div className="d-flex align-items-center mb-3" >
                             <svg className="iconWave" width="75" height="75"
                                  viewBox="0 0 111.65 46.029">
@@ -35,8 +35,10 @@ export default function Presentation() {
                                           transform="translate(-23.356 -0.005)" fill="#a1b720"/>
                                 </g>
                             </svg>
-                            <h3 className="Dev">Dev front-end <span className="text-light">|</span> <span
-                                style={{color: "#A1B720"}}>Graphic Designer</span></h3>
+                            <h1 className="Dev">
+                                Développeur front-end <span className="text-light">|</span> <span
+                                style={{color: "#A1B720"}}>Graphic Designer</span>
+                            </h1>
                         </div>
 
                         <Competance/>

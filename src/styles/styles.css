@@ -200,6 +200,7 @@ button {
 .nom {
     color: white;
     font-family: var(--chakra-font-sb), sans-serif;
+    font-size: xxx-large;
     margin: 0 0 !important;
     position: relative;
     right: 5px;
@@ -208,6 +209,7 @@ button {
 
 .Dev {
     font-family: sans-serif;
+    font-size: x-large !important;
     position: relative;
     top: 4px;
     color: var(--color);
@@ -348,6 +350,7 @@ button {
         padding: 0 13px;
     }
     .Dev {
+        font-size: larger !important;
         margin: 0 !important;
     }
     .Competance {
