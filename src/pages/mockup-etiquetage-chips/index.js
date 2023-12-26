@@ -51,7 +51,7 @@ export default function Index() {
                                     </div>
                                 </div>
                                 <div className="col-lg-6 overflow-hidden d-lg-flex d-none justify-content-end">
-                                    <Image src={image1} alt="Mockup chips" height={354} style={{borderRadius: 8}}/>
+                                    <Image src={image1} alt="Mockup chips avec différent étiquette" height={354} style={{borderRadius: 8}}/>
                                 </div>
                             </div>
                         </div>
@@ -96,7 +96,7 @@ export default function Index() {
                             </div>
                             <div
                                 className="col-lg-6 mb-4 mb-lg-0 d-flex justify-content-center justify-content-lg-end">
-                                <Image src={image2} alt="les calques essentiels en mockup avec photoshop"
+                                <Image src={image2} alt="capture d'écran des calques essentiels en mockup avec photoshop"
                                        width={485} style={{borderRadius: 8}}/>
                             </div>
                         </div>
@@ -124,7 +124,8 @@ export default function Index() {
                                 </p>
                             </div>
                             <div className="col-lg-6 d-flex justify-content-center justify-content-lg-end">
-                                <Image src={image2_2} width={454} alt="Capture d'écran photoshop outil sélection"
+                                <Image src={image2_2} width={454} alt="Emballage de chips neutre et capture d'ecran du
+                                    calque avec masque de fusion"
                                        style={{borderRadius: 8}}/>
                             </div>
                         </div>

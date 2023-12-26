@@ -3,16 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="79ee4880-91f4-436f-86fb-e96be95ef80f" name="Default Changelist" comment="update">
       <changelist_data name="unknown" email="fanekena.f12@gmail.com" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/portfolio-react-to-next.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Segoe UI/segoeui.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mockup-etiquetage-chips/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/mockup-etiquetage-chips/index.js" afterDir="false" />
     </list>
-    <list id="b4fb1d70-30b1-45d4-a94c-8e8145ea581a" name="Revert: update" comment="Revert: update">
-      <change beforePath="$PROJECT_DIR$/src/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styles.css" afterDir="false" />
-    </list>
+    <list id="b4fb1d70-30b1-45d4-a94c-8e8145ea581a" name="Revert: update" comment="Revert: update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +64,7 @@
       <updated>1703588047125</updated>
       <workItem from="1703588051254" duration="4399000" />
       <workItem from="1703592512098" duration="950000" />
+      <workItem from="1703603204128" duration="1365000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1703588995043</created>
