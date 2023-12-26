@@ -35,10 +35,10 @@ export default function Index() {
                                         important de prendre en compte l'esthétique en réel, qui est l'essence du
                                         travail du designer. Sur ce tutoriel Photoshop, nous allons voir comment créer
                                         un mockup et visualiser notre design d'étiquetage sur un packaging réel. Nous
-                                        prendrons l'exemple d'étiquetage d'un template d'emballage de chips.<br/><br/>
-                                        Commençons ! ;-)
+                                        prendrons l'exemple d'étiquetage d'un template d'emballage de chips.<br/>
+                                        <span className="d-none d-lg-block"><br/>Commençons ! ;-)</span>
                                     </p>
-                                    <div className="d-flex mb-4 ms-5">
+                                    <div className="d-lg-flex mb-4 ms-5 d-none ">
                                         <div className="d-flex align-items-center me-3">
                                             <div className="icon-gears fs-4"/>
                                             <div className="handjet ms-2 fs-5">Adobe Photoshop</div>
@@ -51,7 +51,7 @@ export default function Index() {
                                     </div>
                                 </div>
                                 <div className="col-lg-6 overflow-hidden d-lg-flex d-none justify-content-end">
-                                    <Image src={image1} alt="" height={354} style={{borderRadius: 8}}/>
+                                    <Image src={image1} alt="Mockup chips" height={354} style={{borderRadius: 8}}/>
                                 </div>
                             </div>
                         </div>
@@ -96,7 +96,8 @@ export default function Index() {
                             </div>
                             <div
                                 className="col-lg-6 mb-4 mb-lg-0 d-flex justify-content-center justify-content-lg-end">
-                                <Image src={image2} alt="" width={485} style={{borderRadius: 8}}/>
+                                <Image src={image2} alt="les calques essentiels en mockup avec photoshop"
+                                       width={485} style={{borderRadius: 8}}/>
                             </div>
                         </div>
 
@@ -123,7 +124,8 @@ export default function Index() {
                                 </p>
                             </div>
                             <div className="col-lg-6 d-flex justify-content-center justify-content-lg-end">
-                                <Image src={image2_2} width={454} alt="" style={{borderRadius: 8}}/>
+                                <Image src={image2_2} width={454} alt="Capture d'écran photoshop outil sélection"
+                                       style={{borderRadius: 8}}/>
                             </div>
                         </div>
 
@@ -138,7 +140,8 @@ export default function Index() {
                                 , mais aucun cas le calque inférieur<br/>
                             </p>
                             <div className="col-lg-6 d-flex justify-content-center justify-content-lg-start mb-4">
-                                <Image src={image3} alt="" height={485} style={{borderRadius: 8}}/>
+                                <Image src={image3} alt="Capture d'écran du réglage de masque de fusion sur photoshop"
+                                       height={485} style={{borderRadius: 8}}/>
                             </div>
                             <p className="col-lg-6">
                                 Le paramétrage de mode de fusion se trouve dans la fenêtre de calque à côté du réglage
