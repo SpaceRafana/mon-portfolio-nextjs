@@ -22,6 +22,7 @@ body {
     color: #eaeaea !important;
     overflow: hidden;
     width: 100vw;
+    padding: 0 !important;
 }
 
 .App {
@@ -227,7 +228,7 @@ button {
 }
 
 .Dev {
-    font-family: var(--segoeUI);
+    font-family: var(--segoeUi);
     font-size: x-large !important;
     position: relative;
     top: 4px;
