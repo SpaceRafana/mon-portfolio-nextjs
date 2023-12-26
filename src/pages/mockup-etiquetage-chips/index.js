@@ -83,7 +83,7 @@ export default function Index() {
                                     pour placer l'étiquette.<br/>
                                     Si vous souhaitez vous entraîner sur ce tutoriel ou réaliser un véritable projet,
                                     mais que vous n'avez pas de modèle, vous pouvez le <a
-                                    href="https://spacerafana.gumroad.com/I/mockup" target="_blank" title="Templates"
+                                    href="https://spacerafana.gumroad.com/l/mockup" target="_blank" title="Templates"
                                     className="colorGreen text-decoration-underline">
                                     téléchager ici</a>.
                                 </p>
