@@ -25,9 +25,10 @@ export default function Index() {
                 <Element name="intro">
                     <div className="presentation">
                         <div style={{marginTop: "10%"}}>
-                            <h1 className="">
-                                <b>Mockup</b> et <b>étiquetage</b> en Photoshop.
-                            </h1>
+
+                            {/*Grand titre*/}
+                            <h1 className=""><b>Mockup</b> et <b>étiquetage</b> en Photoshop.</h1>
+
                             <div className="row">
                                 <div className="col-lg-6">
                                     <p>
@@ -68,6 +69,7 @@ export default function Index() {
                             <div style={{background: "white", height: 1, width: 120}}/>
                         </div>
 
+                        {/*//Sous titre*/}
                         <h2>Ouvrir le template de chips sur photoshop, puis importé le design d'étiquette.</h2>
 
                         <div className="row">
@@ -101,10 +103,11 @@ export default function Index() {
                             </div>
                         </div>
 
+                        {/*//Sous titre*/}
+                        <h2 className=""><b>Outil sélection</b> et <b>masque de fusion</b>.</h2>
+
                         <div className="row">
-                            <h2 className="">
-                                <b>Outil sélection</b> et <b>masque de fusion</b>.
-                            </h2>
+
                             <p className="col-lg-12">
                                 L'outil de sélection est un des outils spécifiques à Photoshop qui permet de sélectionner
                                 une zone dans une image et d'effectuer des modifications sur cette zone.
@@ -130,10 +133,11 @@ export default function Index() {
                             </div>
                         </div>
 
+                        {/*Sous titre*/}
+                        <h2>Paramétrage de <b>mode de fusion</b> à "<b>densité linéaire +</b>"</h2>
+
                         <div className="row">
-                            <h2>
-                                Paramétrage de <b>mode de fusion</b> à "<b>densité linéaire +</b>"
-                            </h2>
+
                             <p className="col-lg-12 mb-5">
                                 C'est quoi les modes de fusion? Les modes de fusion dans Photoshop permettent de mélanger
                                 les pixels de couleur entre le calque supérieur et le calque inférieur.
