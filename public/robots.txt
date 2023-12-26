@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://spacerafana.netlify.app/sitemap.xml

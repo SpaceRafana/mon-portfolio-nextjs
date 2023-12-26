@@ -1,12 +1,12 @@
 import {Link} from "react-scroll";
 
-export default function Prev({to,smooth,duration,offset}) {
+export default function Prev({to,smooth,duration,offset,className}) {
     return (
         <Link to={to} smooth={smooth} duration={duration} offset={offset}
               style={{cursor: "pointer"}}
         >
             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 56 56"
-                 style={{marginInline: 15}} className="btnPrev">
+                 style={{marginInline: 15}} className={"btnPrev " + className}>
                 <g id="Go_to_previous" data-name="Go to previous" transform="translate(-1727.526 -905.286)">
                     {/*<g id="Ellipse_1" data-name="Ellipse 1" transform="translate(1783.526 961.286) rotate(-180)" fill="none"
                    stroke="#d6f42a" strokeWidth="2">

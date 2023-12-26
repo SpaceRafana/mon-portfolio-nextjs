@@ -14,6 +14,7 @@
 }
 
 body {
+    background-color: black;
     background-image: url("../img/space-lunar-opt.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,28 +28,44 @@ body {
     font-family: Acumin-Variable-Concept, sans-serif !important;
     height: 100%;
 }
+.fontSizeMenu {
+    font-size: 19px;
+}
 
 a {
-    text-decoration: none !important;
-    Color: white !important;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+b {
+    font-family: var(--chakra-font-sb);
+    font-weight: normal!important;
+    color: var(--color);
 }
 
 h1 {
     font-family: var(--chakra-font-sb), sans-serif;
     font-size: 75px !important;
     margin: 21px 0 !important;
+    line-height: normal;
 }
 
 h2 {
     font-family: var(--chakra-font-sb), sans-serif;
     font-size: 46px !important;
     margin: 18px 0 !important;
+    line-height: normal;
 }
 
 h3 {
     font-family: var(--chakra-font-sb), sans-serif;
     font-size: 28px !important;
     margin: 8px 0 !important;
+    line-height: normal;
 }
 
 p {
@@ -208,7 +225,7 @@ button {
 }
 
 .Dev {
-    font-family: sans-serif;
+    font-family: var(--segoeUI);
     font-size: x-large !important;
     position: relative;
     top: 4px;
