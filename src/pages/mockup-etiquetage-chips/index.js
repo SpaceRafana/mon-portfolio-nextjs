@@ -39,7 +39,10 @@ export default function Index() {
                                         prendrons l'exemple d'étiquetage d'un template d'emballage de chips.<br/>
                                         <span className="d-none d-lg-block"><br/>Commençons ! ;-)</span>
                                     </p>
-                                    <div className="d-lg-flex mb-4 ms-5 d-none ">
+                                    <div className="overflow-hidden d-flex d-lg-none justify-content-center mb-3">
+                                        <Image src={image1} alt="Mockup chips avec différent étiquette" height={124} style={{borderRadius: 8}}/>
+                                    </div>
+                                    <div className="d-lg-flex mb-4 ms-5 d-none">
                                         <div className="d-flex align-items-center me-3">
                                             <div className="icon-gears fs-4"/>
                                             <div className="handjet ms-2 fs-5">Adobe Photoshop</div>
@@ -47,11 +50,11 @@ export default function Index() {
                                     </div>
                                     <div className="mb-4" style={{background: "white", height: 1}} />
                                     <div className="d-flex flex-column align-items-center">
-                                        <div className="handjet fs-5 colorGreen">Parcourir les étapes</div>
+                                        <div className="handjet fs-6 colorGreen">Parcourir les étapes</div>
                                         <Next to="developpement" smooth="easeInOutCubic" duration={1000}/>
                                     </div>
                                 </div>
-                                <div className="col-lg-6 overflow-hidden d-lg-flex d-none justify-content-end">
+                                <div className="col-lg-6 overflow-hidden d-lg-flex d-none justify-content-center">
                                     <Image src={image1} alt="Mockup chips avec différent étiquette" height={354} style={{borderRadius: 8}}/>
                                 </div>
                             </div>
