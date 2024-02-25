@@ -5,7 +5,6 @@ import Computor3D from "./Computor3D";
 import SousCalque from "./SousCalque";
 import ServicesContent from "./ServicesContent";
 import Detail from "./Detail";
-import {useState} from "react";
 
 export default function Services({etat, setEtat}) {
     //state

@@ -1,4 +1,5 @@
 import {Link} from "react-scroll"
+import Btn from "./Btn";
 
 export default function ServicesContent({setEtat}) {
 
@@ -19,18 +20,13 @@ export default function ServicesContent({setEtat}) {
         <>
             <div className="mb-4">
                 <h2>Ce que je fait ?</h2>
-                <p className="offset-lg-3 col-lg-6">
-                    {/*Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                    nonummy nibh euismod tincidunt ut laoreet dolore magna
-                    aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-                    exerci.*/}
-                    Mon occupation c'est de concevoir du contenu riche en esthétique et
-                    créativité. Je communique à travers le visuel. Graphic designer et développeur
-                    front-end
+                <p className="">
+                    Concevoir du contenu riche en esthétique. <br/>Je communique à travers le visuel.
+                    <br/>Graphic designer et développeur front-end
                 </p>
                 <div className="d-flex justify-content-center">
                     <Link to="detail" smooth={"easeInOutCubic"} duration={1000} onClick={handlePortfolio}>
-                        <div className="MyBtn d-flex align-items-center">Portfolio <span className="ms-2 icon-folder-open"/></div>
+                        <Btn textBtn="portfolio" icon="icon-folder-open"/>
                     </Link>
                 </div>
             </div>

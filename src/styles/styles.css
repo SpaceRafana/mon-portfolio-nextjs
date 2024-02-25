@@ -15,7 +15,7 @@
 
 body {
     background-color: black;
-    background-image: url("../img/space-lunar-opt.jpg");
+    background-image: url("../img/background-svg.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -25,12 +25,19 @@ body {
     padding: 0 !important;
 }
 
+@media only screen and (max-width: 768px){
+    body {
+        overflow: scroll;
+    }
+}
+
 .App {
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(0, 5, 0, 0.65);
     font-family: Acumin-Variable-Concept, sans-serif !important;
     height: 100%;
-    width: 100vw;
+    min-width: 100vw;
 }
+
 .fontSizeMenu {
     font-size: 19px;
 }
@@ -41,7 +48,7 @@ a {
 }
 
 a:hover {
-    color: black;
+    color: var(--color);
 }
 
 b {
@@ -121,17 +128,21 @@ button {
 
                                             /*   Bar Navigation   */
 .navigation {
-    font-family: var(--handjet-font), sans-serif;
     padding-inline: 88px;
     padding-top: 25px;
+    z-index: 20;
 }
 
 .navlink {
     width: 100%;
     height: 100%;
-    /*display: flex;
-    justify-content: space-between;*/
 }
+
+.navlink .menu {
+    font-family: var(--chakra-font-r), sans-serif;
+    font-size: 12pt;
+}
+
 
 @media only screen and (max-width: 768px) {
     .navigation {
@@ -154,19 +165,22 @@ button {
 
 .MyBtn {
     background: transparent;
-    box-shadow: 0 0 2px white;
+    box-shadow: 0 0 2px var(--color);
     width: auto;
     display: block;
-    padding: 13px 25px;
-    border-radius: 8px;
-    color: var(--color);
+    padding: 8px 25px;
+    border-radius: 55px;
+    color: white;
     font-family: var(--handjet-font), sans-serif;
     font-size: 23px;
     cursor: pointer;
 }
 .MyBtn:hover {
+    box-shadow: 0 0 4px var(--color);
+    color: white;
+}
+.MyBtn:active {
     background: white;
-    box-shadow: 0 0 0;
     color: black;
 }
 
@@ -205,10 +219,8 @@ button {
 
                                         /*   Page Index   */
 .monAvatar {
-    position: fixed;
     right: 0;
     height: 100%;
-    width: 75% !important;
 }
 
 .salutation {
@@ -229,16 +241,12 @@ button {
 
 .Dev {
     font-family: var(--segoeUi);
-    font-size: x-large !important;
-    position: relative;
-    top: 4px;
+    font-size: medium !important;
     color: var(--color);
-    margin: 0 12px !important;
+    margin: 0 0px !important;
 }
 
 .Competance {
-    position: relative;
-    bottom: 23px;
     display: flex;
     align-items: center;
     color: white;
@@ -257,8 +265,6 @@ button {
     position: relative;
     background-color: black;
     background-size: cover;
-    /*display: flex;
-    justify-content: center;*/
     width: 100%;
     height: 100vh;
     text-align: center;
@@ -329,7 +335,7 @@ button {
 
 .Detail {
     position: relative;
-    background-color: black;
+    background: #292929 !important;
     width: 100%;
     height: 100vh;
 }
@@ -368,11 +374,11 @@ button {
         font-size: 15px;
     }
     .presentation {
-        padding: 0 13px !important;
+        padding: 55px 13px !important;
         width: 100vw !important;
+        height: 100%;
     }
     .Dev {
-        font-size: larger !important;
         margin: 0 !important;
     }
     .Competance {

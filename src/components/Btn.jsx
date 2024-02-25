@@ -6,11 +6,9 @@ export default function Btn({textBtn, to, id, icon, offset}) {
     //comportement
 
     return (
-        <Link to={to} id={id} smooth={"easeInOutCubic"} duration={1000} offset={offset}>
-            <button className="MyBtn d-flex align-items-center">
-                {textBtn}
-                <span className={icon} style={{fontSize: 33}}/>
-            </button>
-        </Link>
+        <button className="MyBtn d-flex gap-2 align-items-center">
+            <span className={icon + " fs-4"} style={{fontSize: 33}}/>
+            {textBtn}
+        </button>
     )
 }

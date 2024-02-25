@@ -13,7 +13,7 @@ export default function Detail({etat}) {
     const devFrontend = <DevFrontend />
 
     return (
-        <Element name="detail">
+        <Element name="detail" id="portfolio">
             <div className="Detail" style={{background: etat==="portfolio" ? "rgb(25,25,25)" : "black"}}>
                 <div style={{position:"relative", zIndex: 2}}>
                     <div className="d-flex justify-content-center w-100">

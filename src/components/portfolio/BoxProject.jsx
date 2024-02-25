@@ -10,11 +10,11 @@ export default function BoxProject({setDetail, nom, caption, titre}) {
                 border: (!caption ? "1px" : "0px") + " dashed white",
                 height: 308,
                 cursor: "pointer",
-                boxShadow: "0 8px 3px rgba(15, 15, 15, 0.55)",
+                boxShadow: "19px 13px 5px rgba(15, 15, 15, 0.55)",
                 position: "relative",
                 overflow: "hidden"
             }}>
-                <Image alt="" src={caption} style={{height: 308, objectFit: "cover"}}/>
+                <Image alt={titre} rel="noreferrer" src={caption} style={{height: 308, objectFit: "cover"}}/>
                 <div style={{
                     background: titre ? "rgba(25, 25, 25, 0.55)" : "",
                     position: "absolute",

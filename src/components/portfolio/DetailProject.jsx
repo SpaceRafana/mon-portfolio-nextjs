@@ -1,6 +1,21 @@
 import Image from "next/image";
 
-export default function DetailProject({detail, setDetail, titre, sousTitre, textContent1, textContent2, image1, image2}) {
+export default function DetailProject({
+                                          detail,
+                                          setDetail,
+                                          titre,
+                                          sousTitre,
+                                          textContent1,
+                                          textContent2,
+                                          image1,
+                                          image2,
+                                          height1,
+                                          height2,
+                                          date,
+                                          display,
+                                          posX
+                                      })
+{
     //state
 
     //comportement
@@ -16,33 +31,34 @@ export default function DetailProject({detail, setDetail, titre, sousTitre, text
             <div className="row gap-5">
                 <div className="col-lg-4">
                     <h2 className="colorGreen">{sousTitre}</h2>
+                    <h3>Date : {date}</h3>
                     <p>{textContent1}</p>
                     <div className="" style={{
                         display: "flex",
                         alignItems: "center",
-                        justifyContent: "start",
+                        justifyContent: `${posX}`,
                         borderRadius: 8,
                         height: 350,
                         border: !image2 ? "1px dashed white" : "",
-                        boxShadow: "0 5px 5px rgb(35,35,35)",
+                        boxShadow: "19px 13px 5px rgba(15, 15, 15, 0.55)",
                         overflow: "hidden"
                     }}>
-                        <Image src={image2} alt="" style={{height: 350, objectFit: "contain"}} />
+                        <Image src={image2} rel="noreferrer" alt="capture d'écran" style={{height: `${height2}`, objectFit: "contain"}} />
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <div style={{
-                        display: "flex",
+                        display: `${display}`,
                         alignItems: "center",
                         borderRadius: 8,
-                        boxShadow: "0 5px 5px rgb(35,35,35)",
+                        boxShadow: "19px 13px 5px rgba(15, 15, 15, 0.55)",
                         marginBottom: 21,
                         height: 350,
                         overflow: "hidden"
                     }}>
-                        <Image src={image1} alt="" style={{height: 350, objectFit: "cover"}} />
+                        <Image src={image1} rel="noreferrer" alt="capture d'écran" style={{height: `${height1}`, objectFit: "cover"}} />
                     </div>
-                    <h3>Mise en situation réel</h3>
+                    <h3>Mise en situation</h3>
                     <p>
                         {textContent2}
                     </p>

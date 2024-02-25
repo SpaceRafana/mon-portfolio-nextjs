@@ -3,12 +3,13 @@ import Navbar from "../../components/Navbar";
 import Head from "next/head";
 import Image from "next/image";
 import flecheBas from "../../img/fleche-bas.svg"
-import image1 from "../../img/mockup-chips---Copie.jpg"
-import image2 from "../../img/etape-1.jpg"
-import image2_2 from "../../img/masque-de-fusion.jpg"
-import image3 from "../../img/etape-3.jpg"
+import image1 from "../../img/etiquetage-chips-presentation.jpg"
+import image2 from "../../img/capture-des-calques-photoshop-en-etiquetage.jpg"
+import image2_2 from "../../img/masque-de-fusion-photoshop.jpg"
+import image3 from "../../img/configuration-masque-de-fusion-capture.jpg"
 import Prev from "../../components/Prev";
 import Next from "../../components/Next";
+import Btn from "../../components/Btn";
 
 export default function Index() {
     return (
@@ -17,7 +18,7 @@ export default function Index() {
                 <link rel="icon" href="/icon-250x250.png"/>
                 <title>Space Rafana</title>
                 <meta title="Mockup et étiquetage de produit avec Photoshop"/>
-                <meta description="Mettre en situation un design d'étiquette de produit avec photoshop pour exprimer et
+                <meta name="description" content="Mettre en situation un design d'étiquette de produit avec photoshop pour exprimer et
                 visualiser son esthétique, "/>
             </Head>
             <main className="App">
@@ -50,7 +51,6 @@ export default function Index() {
                                     </div>
                                     <div className="mb-4" style={{background: "white", height: 1}} />
                                     <div className="d-flex flex-column align-items-center">
-                                        <div className="handjet fs-6 colorGreen">Parcourir les étapes</div>
                                         <Next to="developpement" smooth="easeInOutCubic" duration={1000}/>
                                     </div>
                                 </div>
@@ -148,7 +148,8 @@ export default function Index() {
                                 , mais aucun cas le calque inférieur<br/>
                             </p>
                             <div className="col-lg-6 d-flex justify-content-center justify-content-lg-start mb-4">
-                                <Image src={image3} alt="Capture d'écran du réglage de masque de fusion sur photoshop"
+                                <Image src={image3} alt="Capture d'écran du réglage de masque de fusion sur photoshop et
+                                le résultat final de l'etiquétage et mockup"
                                        height={485} style={{borderRadius: 8}}/>
                             </div>
                             <p className="col-lg-6">
