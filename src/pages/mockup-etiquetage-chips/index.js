@@ -2,7 +2,6 @@ import {Element} from "react-scroll"
 import Navbar from "../../components/Navbar";
 import Head from "next/head";
 import Image from "next/image";
-import flecheBas from "../../img/fleche-bas.svg"
 import image1 from "../../img/etiquetage-chips-presentation.jpg"
 import image2 from "../../img/capture-des-calques-photoshop-en-etiquetage.jpg"
 import image2_2 from "../../img/masque-de-fusion-photoshop.jpg"
