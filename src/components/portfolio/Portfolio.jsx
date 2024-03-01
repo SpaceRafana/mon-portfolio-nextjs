@@ -12,7 +12,7 @@ import screenChipsPackaging from "../../img/etiquettage-chips.JPG"
 import TmplPub2 from "../../img/design-pub.jpg"
 import screenTmplPub2 from "../../img/tmpl-pub-2.JPG"
 import msTmplPub2 from "../../img/mise-en-situation-tmpl-pub.jpg"
-import magasinePub from "../../img/Magasine pub 2.jpg"
+import magasinePub from "../../img/poster.jpg"
 import screenMagasinePub from "../../img/affiche-catalogue.jpg"
 
 import BoxProject from "./BoxProject";
